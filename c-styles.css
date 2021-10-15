@@ -1,0 +1,94 @@
+/*------------ABOUT US SECTION--------------*/
+
+body{
+    
+    font-family: sans-serif;
+    margin: 20px;
+    box-sizing: border-box;
+    outline: none;
+    width: 1300px;
+}
+
+#nav{
+    
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.1);
+    margin-left: 0;
+    margin-right: 0; 
+    padding-right: 10px;
+    
+    
+    
+}
+
+#nav h1{
+    
+    text-align: center;
+    color: #555;
+    padding-bottom: 0;
+    font-family: sans-serif;
+    font-size: 40px;  
+}
+
+#nav h1::after{
+    
+    content: '';
+    background: #007BFF;
+    display: block;
+    height: 4px;
+    width: 210px;
+    margin: 10px auto 5px;
+}
+
+.about ul li h2{
+    
+   text-decoration-line: underline;
+    color: #27a545;
+    font-size: 33px;
+}
+
+.about ul li p{
+    
+    line-height: 35px;
+    font-size: 20px; 
+    
+}
+
+.projects{
+    
+    list-style: square;  
+}
+
+.projects li{
+    
+    margin-bottom: 80px;
+}
+
+.projects li .sub-hd{
+    
+    font-size: 28px;
+    margin: 20px;
+    display: block;
+    width: 500px;
+    margin-bottom: 5px;
+    color: #007BFF;
+ 
+}
+
+.projects li p{
+
+    font-size: 20px;
+    width: 800px;
+    display: inline-block;
+}
+
+.projects .img-proj{
+    
+    height: 220px;
+    width: 370px;
+    border-radius: 10px;
+    margin-top: 20px;
+    float: right;
+    
+}

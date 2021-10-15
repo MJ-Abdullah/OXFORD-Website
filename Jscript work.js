@@ -1,0 +1,4 @@
+function ClickToLoad(){
+
+    windows.location="";
+}
